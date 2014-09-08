@@ -58,4 +58,3 @@ subto concentrates: forall <t,i> in Period * Group:
 subto maizesilage: sum <t,i,l,j> in Period * Group * Cow * Feed 
   with j == "maizesilage" and need[t,i,l,"no"] > 0:
   need[t,i,l,"no"] * y[t,i,j] * need[t,i,l,"intake"] / ((sum <lx> in Cow: need[t,i,lx,"intake"]) / cows_per_gr)  <= 300;
-  
