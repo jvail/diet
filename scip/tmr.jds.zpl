@@ -27,7 +27,7 @@ param feed[Feed * FeedAttr] :=
   |"maizesilage"| 6.9    ,  136    ,  0.962 ,  -9  |
   |      "wheat"| 8.5    ,  170    ,  0.400 ,  -5  |
   |        "soy"| 9.9    ,  250    ,  0.400 ,  24  |;
-#                 (NEL)     (uCP)     (LFU)   (uCP)
+#                 (NEL)     (uCP)     (LFU)   (N)
 
 param max_conc_pc := 0.4;
 param cows_per_gr := 2;
