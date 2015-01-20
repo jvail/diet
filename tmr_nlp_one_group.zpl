@@ -87,7 +87,7 @@ var fufl real;
 var fkgs real;
 var def real;
 var e_def real;
-var sqrt_plpot[Cows] real;
+var gsr_plpot[Cows] real;
 var gsr_zero[Cows] real;
 
 defnumb d(c) := if (cow_data[c, "parity"] > 1) then 1.10 else 0.96 end;  
@@ -136,5 +136,5 @@ subto gsr: forall <c> in Cows do
 # ZIMPL does only accept integer exponents: PLPOT^-0.62 -> exp(-0.62*ln(PLPOT))
 
 subto def: exp(1.32 * def) == e_def;
-subto plpot:  forall <c> in Cows do exp(-0.62*ln(cow_data[c, "PLPOT"])) == sqrt_plpot[c];
-subto gsr_zero:  forall <c> in Cows do d(c) * sqrt_plpot[c] * e_def == gsr_zero[c];
+subto plpot:  forall <c> in Cows do exp(-0.62*ln(cow_data[c, "PLPOT"])) == gsr_plpot[c];
+subto gsr_zero:  forall <c> in Cows do d(c) * gsr_plpot[c] * e_def == gsr_zero[c];
