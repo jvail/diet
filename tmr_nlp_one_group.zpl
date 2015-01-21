@@ -1,4 +1,4 @@
-#optimize TMR accross all cows: minimize total sum of (relative) requirement violations
+#optimize TMR across all cows: minimize total sum of (relative) requirement violations
 # set limits solutions 2
 # set numerics feastol 0.001
 
