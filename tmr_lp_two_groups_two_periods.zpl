@@ -1,3 +1,6 @@
+# Copywrite (C) 2015 Jan Vaillant <jan.vaillant@zalf.de>
+# Licensed under the MIT licence
+
 # Create cow feed rations for all periods and groups as such that the absolute (relative %) 
 # difference between cow/group requirements (energy, protein) and diets is minimized.
 

@@ -1,3 +1,6 @@
+# Copywrite (C) 2015 Jan Vaillant <jan.vaillant@zalf.de>
+# Licensed under the MIT licence
+
 #optimize PMR across all cows: minimize total sum of (relative) requirement violations
 # set limits solutions 2
 # set numerics feastol 0.001

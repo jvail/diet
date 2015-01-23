@@ -1,3 +1,6 @@
+# Copywrite (C) 2015 Jan Vaillant <jan.vaillant@zalf.de>
+# Licensed under the MIT licence
+
 # LP implementation of TMR problem
 # For simplicity we assume one cow in each group
 # The concentrate fill value (FVC) has been estimated with dairy.js (dairy.intake.FV_cs_diet)
